@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Legacy Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/Chatbot.css">
+</head>
+<body>
+<div class="chatbox">
+    <div class="chat-header">
+        <img src="/static/logo.png" alt="Logo" class="chat-logo">
+        <h2>Legacy Chatbot</h2>
+    </div>
+
+    <div id="chat"></div>
+
+    <!-- Typing indicator -->
+    <div id="typing" class="typing hidden">Bot is typing...</div>
+
+    <div id="buttons"></div>
+
+    <div class="input-area">
+        <input id="input" placeholder="Type your answer..." />
+        <button class="send-btn" onclick="send()">➤</button>
+    </div>
+</div>
+
+<script src="/static/Chatbot.js"></script>
+</body>
+</html>

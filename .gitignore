@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# JSON secrets or credentials (optional, be careful)
+ServiceAccount.json
+
+# VS Code settings folder
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Static asset cache or build folders (if any)
+static/__pycache__/
+
+# Ignore environment files if any (common in Python)
+.env
+venv/
+env/
